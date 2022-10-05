@@ -113,3 +113,18 @@ main {
 #blue {
     border-top: 5px solid var(--blue);
 }
+
+
+/* Media Queries */
+
+@media (min-width: 720px) {
+    main {
+        padding: 10%;
+    }
+
+    .cards-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+}
