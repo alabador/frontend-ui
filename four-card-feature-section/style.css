@@ -1,5 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap');
 
 :root {
-    
+    --red: hsl(0, 78%, 62%);
+    --cyan: hsl(180, 62%, 55%);
+    --orange: hsl(34, 97%, 64%);
+    --blue: hsl(212, 86%, 64%);
+    --darkblue: hsl(234, 12%, 34%);
+    --grayblue: hsl(229, 6%, 66%);
+    --lightgray: hsl(0, 0%, 98%);
+
+    --bodyfontsize: 15px;
+    --fontlight: 200;
+    --fontmed: 400;
+    --fontbold: 600;
 };
