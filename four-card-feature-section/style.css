@@ -40,7 +40,23 @@ main {
 .info-container {
     text-align: center;
     margin-bottom: 64px;
+    color: var(--darkblue);
 }
+
+.info-container .title {
+    font-weight: var(--fontlight);
+}
+
+.info-container .bold-title {
+    font-weight: var(--fontbold);
+}
+
+.info-container .info-p {
+    font-weight: var(--fontlight);
+    color: var(--grayblue);
+    margin-top: 1.5rem;
+}
+
 
 .cards-container {
     display: grid;
@@ -50,6 +66,8 @@ main {
 
 .card {
     background-color: white;
-    padding: 48px;
+    padding: 2rem 1rem;
     border: 1px solid red;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
 }
