@@ -26,8 +26,33 @@ $quote-size: 28px;
     padding: 2rem;
     margin: auto 2rem;
     border-radius: 8px;
+    text-align: center;
+    position: relative;
+
+    .advice-number {
+        color: $neon-green;
+    }
+
+    .advice-quote {
+        color: $light-cyan;
+    }
+
+    .divider {
+        margin-bottom: 1.5rem;
+    }
+
+    .reroll-div {
+        position: absolute;
+        bottom: -30px;
+
+        background-color: $neon-green;
+        padding: 1rem;
+        width: 32px;
+        height: 32px;
+        border-radius: 100%;
+    }
 }
 
 .gap {
-    gap: 2rem;
+    gap: 1.5rem;
 }
