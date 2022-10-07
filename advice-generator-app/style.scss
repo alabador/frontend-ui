@@ -49,12 +49,24 @@ $quote-size: 28px;
     .reroll-div {
         position: absolute;
         bottom: -30px;
-
         background-color: $neon-green;
         padding: 1rem;
         width: 32px;
         height: 32px;
         border-radius: 100%;
+        cursor: pointer;
+        transition: 0.2s ease-in-out;
+    }
+
+    .reroll-div:hover {
+        width: 36px;
+        height: 36px;
+    }
+
+    .reroll-div:active {
+        width: 36px;
+        height: 36px;
+        transform: rotate(360deg);
     }
 }
 
