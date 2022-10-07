@@ -4,6 +4,7 @@ This repository contains UI challenges meant to keep frontend skills sharp. Many
 
 ## Project Links
 + [Four Card Section](https://alabador.github.io/frontend-ui/four-card-feature-section)
++ [Advice Generator App](https://alabador.github.io/frontend-ui/advice-generator-app)
 
 ## How It's Made 
 
