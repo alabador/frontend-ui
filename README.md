@@ -4,7 +4,7 @@ This repository contains UI challenges meant to keep frontend skills sharp. Many
 
 ## Project Links
 + [Four Card Section Live Site](https://alabador.github.io/frontend-ui/four-card-feature-section) | [Project Page](https://github.com/alabador/frontend-ui/tree/main/four-card-feature-section)
-+ [Advice Generator App Live Site](https://alabador.github.io/frontend-ui/advice-generator-app)| [Project Page](https://github.com/alabador/frontend-ui/tree/main/advice-generator-app)
++ [Advice Generator App Live Site](https://alabador.github.io/frontend-ui/advice-generator-app) | [Project Page](https://github.com/alabador/frontend-ui/tree/main/advice-generator-app)
 
 ## How It's Made 
 
