@@ -6,6 +6,8 @@ Link to Project: [Advice Generator App](https://alabador.github.io/frontend-ui/a
 
 ![Desktop Version](./advice-screenshot.png)
 
+[Frontend Mentor challenge here](https://www.frontendmentor.io/challenges/advice-generator-app-QdUG-13db)
+
 ## How It's Made
 
 **Common Tech Used:**
