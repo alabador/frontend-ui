@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+
+:root {
+    --page-bg: #F7F8FC;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+    /* background-color: var(--page-bg); */
+}
+
+main {
+    min-width: 100%;
+    min-height: 100%;
+    background-color: var(--page-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20% 10%;
+    
+    background-image: radial-gradient(circle at 11% 63%, rgba(82, 82, 82,0.06) 0%, rgba(82, 82, 82,0.06) 25%,rgba(136, 136, 136,0.06) 25%, rgba(136, 136, 136,0.06) 50%,rgba(191, 191, 191,0.06) 50%, rgba(191, 191, 191,0.06) 75%,rgba(245, 245, 245,0.06) 75%, rgba(245, 245, 245,0.06) 100%),radial-gradient(circle at 16% 28%, rgba(80, 80, 80,0.06) 0%, rgba(80, 80, 80,0.06) 25%,rgba(68, 68, 68,0.06) 25%, rgba(68, 68, 68,0.06) 50%,rgba(56, 56, 56,0.06) 50%, rgba(56, 56, 56,0.06) 75%,rgba(44, 44, 44,0.06) 75%, rgba(44, 44, 44,0.06) 100%),radial-gradient(circle at 51% 54%, rgba(179, 179, 179,0.06) 0%, rgba(179, 179, 179,0.06) 25%,rgba(121, 121, 121,0.06) 25%, rgba(121, 121, 121,0.06) 50%,rgba(62, 62, 62,0.06) 50%, rgba(62, 62, 62,0.06) 75%,rgba(4, 4, 4,0.06) 75%, rgba(4, 4, 4,0.06) 100%),linear-gradient(303deg, var(--page-bg),var(--page-bg));
+
+/* Background image from https://www.gradientmagic.com/ */
+}
+
+/* Accordion  */
+
+.accordion-container {
+    padding: 6rem;
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.accordion-info {
+    text-align: center;
+    padding: 0 0.5rem;
+    padding-bottom: 4rem;
+}
+
+.accordion-info h1 {
+    padding-bottom: 2rem;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.accordion-info p {
+    line-height: 1.6rem;
+    font-size: 0.8rem;
+}
+
+.label {
+    display: flex;
+    justify-content: space-between;
+    gap: 4px;
+    font-weight: 400;
+}
+
+.label:hover {
+    cursor: pointer;
+}
+
+.content {
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s ease-out;
+    font-size: 0.8rem;
+}
+
+.content p {
+    padding-bottom: 1rem;
+    line-height: 1.4rem;
+}
+
+.content-button {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 1rem;
+    padding: 0.4rem 0.8rem;
+    border: 1px solid gray;
+    border-radius: 48px;
+}
+
+hr {
+    margin: 1rem 0;
+}
+
+/* Active Class to show content */
+.active {
+    height: max-content;
+    padding: 1rem 0;
+}
+
+
+/* Media Queries */
+@media screen and (min-width: 600px) {
+    main {
+        padding: 20% 15%;
+    }
+}
+@media screen and (min-width: 1000px) {
+    .accordion-container {
+        width: 600px;
+    }
+}
