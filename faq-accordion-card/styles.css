@@ -1,0 +1,74 @@
+main {
+    background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
+    height: 100vh;
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    /* padding: 20% 5%; */
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 25vh 8vh 5vh;
+    /* margin: 20% 5%; */
+    background-color: white;
+    border-radius: 16px;
+    padding: 150px 10% 5%;
+    
+    position: relative;
+}
+
+
+.image-container {
+    width: 300px;
+    position: absolute;
+    top: -150px;
+}
+
+.illustration, .illustration-shadow {
+    width: 100%;
+}
+
+.illustration-shadow {
+    position: relative;
+    top: -100px;
+}
+
+.card {
+    display: inline-block;
+}
+
+.card-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 3.6rem;
+    margin-bottom: 2rem;
+}
+
+.accordion-title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accordion-title-container img {
+    width: 12px;
+    height: 8px;
+}
+
+.accordion {
+    cursor: pointer;
+}
+
+.accordion-title {
+    margin: 1.2rem 0;
+}
+
+.accordion .accordion-text {
+    height: 0;
+    font-size: 1.2rem;
+    transition: 0.5s;
+    overflow: hidden;
+}
